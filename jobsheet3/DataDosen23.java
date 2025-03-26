@@ -2,6 +2,11 @@ package jobsheet3;
 
 public class DataDosen23 {
     
+    public static String kode;
+    public static String nama;
+    public static boolean jenisKelamin;
+    public static int usia;
+
     static void dataSemuaDosen(Dosen23[] arrayOfDosen) {
   
         System.out.println("========== DATA SEMUA DOSEN ==========");
@@ -101,5 +106,35 @@ public class DataDosen23 {
         System.out.println("Dosen Paling Muda : " + arrayOfDosen[dsnTermuda].nama);
         System.out.println("Usia : " + arrayOfDosen[dsnTermuda].usia);
         System.out.println();
+    }
+
+    public void tambah(Dosen23 dosen23) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'tambah'");
+    }
+
+    public static void tampil(DataDosen23[] dataDosen) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'tampil'");
+    }
+
+    public void SortingASC() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'SortingASC'");
+    }
+
+    public void insertionSort() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertionSort'");
+    }
+
+    public static void SortingAsc(DataDosen23[] dataDosen) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'SortingAsc'");
+    }
+
+    public static void sortingDSC(DataDosen23[] dataDosen) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sortingDSC'");
     }
 }
