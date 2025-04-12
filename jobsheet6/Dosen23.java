@@ -21,9 +21,9 @@ public class Dosen23 {
             System.out.println("Kode: " +kode);
             System.out.println("Nama: " +nama);
             if(jenisKelamin==true){
-                System.out.println("Jenis Kelamin: Perempuan");
+                System.out.println("Jenis Kelamin: Pria");
             }else{
-                System.out.println("Jenis Kelamin: Laki-laki");
+                System.out.println("Jenis Kelamin: Wanita");
             }
             System.out.println("Usia: " +usia);
             System.out.println();

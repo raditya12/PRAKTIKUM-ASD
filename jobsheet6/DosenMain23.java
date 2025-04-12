@@ -4,7 +4,10 @@ import java.util.Scanner;
 public class DosenMain23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+
         DataDosen23 dosen = new DataDosen23();
+
         String kode, nama;
         Boolean jk;
         int usia;
@@ -16,7 +19,9 @@ public class DosenMain23 {
             System.out.println("2. Tampil Data Dosen");
             System.out.println("3. Data Dosen Setelah Di Sorting (ASC)");
             System.out.println("4. Data Dosen Setelah Di Sorting (DESC)");
-            System.out.println("5. Keluar");
+            System.out.println("5. Searching menggunakan Sequantial Search");
+            System.out.println("6. Searching menggunakan Binary Search");
+            System.out.println("7. Exit");
             System.out.print("Pilih menu: ");
             int menu = sc.nextInt();
             sc.nextLine();
@@ -63,7 +68,21 @@ public class DosenMain23 {
                     dosen.tampil();
                     break;
                 case 5:
-                    System.out.println("Keluar dari program.");
+                    System.out.println("Sequential Search");
+                    System.out.print("Masukkan nama dosen yang dicari : ");
+                    String cari = sc.nextLine();
+                    dosen.sortingAsc();
+                    dosen.pencarianDataSequential(cari);
+                    break;
+                case 6:
+                    System.out.println("Binary Search");
+                    System.out.print("Masukkan usia dosen yang ingin dicari : ");
+                    int search = sc.nextInt();
+                    sc.nextLine();
+                    dosen.sortingAsc();
+                    dosen.pencarianDataBinary(search);
+                    break;
+                case 7:
                     return;
                 default:
                     System.out.println("Pilihan tidak valid!");
