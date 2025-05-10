@@ -43,26 +43,26 @@ public class MahasiswaDemo23 {
         int pss2 = (int) posisi2;
         list.tampilPosisi(cari, pss2);
         list.tampilDataSearch(cari, pss2);
-/* 
+
         System.out.println("------------------------------------------");
         System.out.println("Pencarian Data");
         System.out.println("------------------------------------------");
         System.out.println("Masukkan IPK Mahasiswa Yang Ingin Dicari: ");
         System.out.println("IPK: ");
-        double cari = sc.nextDouble();
+        cari = sc.nextDouble();
 
         System.out.println("Menggunakan Sequential Searching");
         double posisi = list.sequentialSearching(cari);
         int pss = (int) posisi;
         list.tampilPosisi(cari, pss);
         list.tampilDataSearch(cari, pss);
-        /* 
+        
         System.out.println("\nData mahasiswa sebelum sorting:");
         list.tampil();
 
         System.out.println("Data yang sudah terurut menggunakan INSERTION SORT (ASC)");
         list.insertionSort();
-        list.tampil(); */
+        list.tampil(); 
 
 
     }
