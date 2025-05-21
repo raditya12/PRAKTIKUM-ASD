@@ -1,16 +1,16 @@
-package jobsheet10;
+package jobsheet11;
 
 public class Mahasiswa23 {
-    String nim, nama, kelas;
-    int nilai;
+    public String nama;
+    public String nim;
+    public String prodi;
+    public String kelas;
 
-    Mahasiswa23(String nama, String nim, String kelas){
+    public Mahasiswa23(String nama, String nim, String prodi, String kelas) {
         this.nama = nama;
         this.nim = nim;
+        this.prodi = prodi;
         this.kelas = kelas;
-        nilai = -1;
-    }
-    void tugasDinilai (int nilai){
-        this.nilai = nilai;
     }
 }
+
