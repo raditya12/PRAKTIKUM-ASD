@@ -1,4 +1,4 @@
-package jobhsheet10;
+package jobsheet10;
 
 public class StackSurat23 {
     Surat23[] stack;

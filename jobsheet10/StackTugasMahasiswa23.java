@@ -1,4 +1,4 @@
-    package jobhsheet10;
+    package jobsheet10;
 
     public class StackTugasMahasiswa23 {
         Mahasiswa23 [] stack;
