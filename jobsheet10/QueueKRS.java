@@ -1,4 +1,4 @@
-package jobsheet11;
+package jobsheet10;
 public class QueueKRS {
     private int maxAntrian = 10;
     private Mahasiswa23[] queue = new Mahasiswa23[maxAntrian];

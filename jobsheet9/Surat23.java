@@ -1,4 +1,4 @@
-package jobsheet10;
+package jobsheet9;
 
 public class Surat23 {
     String idSurat, namaMhs, kelas;

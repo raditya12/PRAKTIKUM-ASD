@@ -1,4 +1,4 @@
-package jobsheet10;
+package jobsheet9;
 
 public class StackKonversi23 {
     int[] tumpukanBiner;
