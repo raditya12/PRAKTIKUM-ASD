@@ -14,7 +14,8 @@ public class SingleLinkedList23 {
     public void print(){
         if (!isEmpty()) {
             NodeMahasiswa23 tmp = head;
-            System.out.print("Isi linked list: \t");
+            System.out.print("-- Antrian Pasien --");
+            System.out.println("Antrian Pasien: ");
             while (tmp != null) {
                 tmp.data.tampilInformasi();
                 tmp = tmp.next;
