@@ -1,5 +1,7 @@
 package CaseMethod2;
 
+import javax.swing.TransferHandler.TransferSupport;
+
 public class QueueTransaksi {
     public TransaksiLayanan [] queue;
     public int front;

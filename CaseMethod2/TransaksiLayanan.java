@@ -5,6 +5,7 @@ public class TransaksiLayanan {
     Pasien pasien;
     public int durasiLayanan;
     public int biaya;
+    public Object nik;
 
     public TransaksiLayanan (Pasien pasien, Dokter dokter, int durasiLayanan) {
         this.pasien = pasien;
@@ -20,5 +21,15 @@ public class TransaksiLayanan {
     public void tampilTransaksi(){
         System.out.println(pasien.nama + "(" +durasiLayanan +")"+ ": Rp " + biaya);
     }
+
+    public Pasien getPasien() {
+        return pasien;
+    }
+
+    public Dokter getDokter() {
+        return dokter;
+    }
+
+
     
 }

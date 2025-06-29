@@ -2,6 +2,8 @@ package CaseMethod2;
 
 import java.util.Scanner;
 
+import jobsheet10.queue;
+
 public class SistemAntrianKlinik {
     static Scanner sc = new Scanner(System.in);
     public static Pasien tambahPasien(){
@@ -51,6 +53,11 @@ public class SistemAntrianKlinik {
                     break;
                 case 5:
                     t.tampilkanRiwayatTransaksi();
+                    break;
+                case 6: 
+                    System.out.print("Masukkan NIK pasien yang dicari: ");
+                    String nikCari = sc.nextLine();
+                    list.cariPasienByNIK(nikCari);
                     break;
                 case 0:
                     System.out.println("Terimakasih Sudah Menggunakan Layanan Kami.");
